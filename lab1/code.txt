@@ -29,7 +29,7 @@ def parse(infile):
     return tariffing(in_minutes, out_minutes, sms)
 
 
-def tariffing(in_minutes, out_minutes, sms):  # module to import
+def tariffing(in_minutes, out_minutes, sms):
     in_value = 1
     out_value = 1
     if sms < 5:
@@ -43,5 +43,5 @@ def tariffing(in_minutes, out_minutes, sms):  # module to import
     return sms_money + in_money + out_money
 
 
-if __name__ == '__main__':  # will not execute whole program if only tariffing is imported
+if __name__ == '__main__':
     main()
