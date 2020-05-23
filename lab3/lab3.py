@@ -47,6 +47,7 @@ def main():
     can.drawString(481, 496, f'{sum}')
     can.drawString(481, 484, "%.2f" % (sum*0.18))  # year is 2012
     can.drawString(481, 472, f'{sum}')
+    can.setFont('roboto', 9)
     can.drawString(127, 456, f'1, на сумму {sum} руб.')
     can.setFillColorRGB(1,1,1)
     can.setFont("Courier", 14)
